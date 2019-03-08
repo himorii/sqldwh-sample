@@ -1,6 +1,6 @@
 -- Create a master key on the database.  
 -- Required to encrypt the credential secret.  
-
+-- 20190308
 CREATE MASTER KEY ENCRYPTION BY PASSWORD = '<password>';  
 CLOSE MASTER KEY
 
